@@ -1,0 +1,7 @@
+When the input has not been given, the child process is waiting for input and hence has not terminated. As a result the status is that of a normal process. To be precise, the output of the comman ps ax | grep <chilProcessID> is:
+		 3133 pts/76   S+     0:00 ./a.out
+
+Once the input is given, the child process terminates and the output of the same command changes to:
+		 3133 pts/76   Z+     0:00 [a.out] <defunct>
+
+This shows clearly that the child process has become "defunct", ie, it has become a "zombie" process because it has finished execution but still has some state in memory due to the fact that it is a child process of a process that is still running (the parent process of the execution of the original program)
