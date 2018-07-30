@@ -1,0 +1,58 @@
+   Hello>mkdir test
+
+   Hello>ls
+   a.out  output.txt  test  turtle.c
+
+   Hello>cd test
+   
+   Hello>pwd
+   /users/ug16/sahilshah/Desktop/sem5/osLab/lab3/lab3/160050005_lab3/turtles/test
+   
+   Hello>cd ..
+
+   Hello>pwd
+   /users/ug16/sahilshah/Desktop/sem5/osLab/lab3/lab3/160050005_lab3/turtles
+
+   Hello>cd
+   An incorrect number of arguments was passed to cd
+
+   Hello>rm test
+   rm: cannot remove 'test': Is a directory
+   Error
+
+   Hello>rmdir test
+
+   Hello>ls
+   make-tokens.c sample-output turtle turtle.c README 
+
+   Hello>sleep 5
+
+   Hello>echo "Hello"
+   "Hello"
+
+   Hello>echo "Hello" > hello.txt
+   
+   Hello>ls
+   hello.txt make-tokens.c  sample-output  turtle  turtle.c README
+
+   Hello>cat hello.txt
+   hello.txt  output.txt  test/  turtle.c
+
+   Hello>cd hello.txt
+   There was an error executing the cd command
+   Ensure that the argument is indeed a directory
+
+
+   Hello>cat hi.text 
+   cat: hi.txt: No such file or directory
+
+   Hello>sleep 5 ;; cat hello.txt ;; sleep 1 ;; echo "hi" ;; ls
+   ""Hello"
+   "hi"
+   a.out  hello.txt  output.txt  test  turtle.c
+
+   Hello>cat hi.txt ;; echo "You know nothing Jon Snow"
+   cat: hi.txt: No such file or directory
+   "You know nothing Jon Snow"
+
+   Hello>
