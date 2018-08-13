@@ -56,3 +56,48 @@
    "You know nothing Jon Snow"
 
    Hello>
+
+
+
+
+ADDITIONAL STUFF THAT I TRIED:
+
+   Hello>cd .
+   
+   Hello>cd ..
+   
+   Hello>cd xyz
+   There was an error executing the cd command
+   Ensure that the argument is indeed a directory
+   
+   Hello>cat abc.txt
+   cat: abc.txt: No such file or directory
+   
+   Hello>sleep 10
+   
+   Hello>echo "Hello World" > abc.txt
+   
+   Hello>cp abc.txt def.txt
+   
+   Hello>cat abc.txt > xyz.txt
+   
+   Hello>sleep 1 ;; echo "Hello" ;; sleep 2 ;; cat abc.txt ;; sleep 3 ;; ls -l
+   "Hello"
+   "Hello World"
+   total 240
+   drwxrwxr-x 4 sahil sahil   4096 Jul 30 19:42 160050005_lab3
+   -rwx------ 1 sahil sahil     14 Jul 30 19:43 abc.txt
+   -rwxrwxr-x 1 sahil sahil  13672 Jul 30 19:29 a.out
+   -rwx------ 1 sahil sahil     14 Jul 30 19:43 def.txt
+   -rw-rw-r-- 1 sahil sahil   1237 Jul 30 19:29 dup.c
+   -rwx------ 1 sahil sahil      8 Jul 30 19:35 hello.txt
+   -rw-rw-r-- 1 sahil sahil 163297 Jul 30 19:29 lab3.pdf
+   -rw-rw-r-- 1 sahil sahil   4204 Jul 30 19:29 make-tokens.c
+   -rw-rw-r-- 1 sahil sahil   1591 Jul 30 19:29 pipes.c
+   -rw-rw-r-- 1 sahil sahil   2230 Jul 30 19:29 README
+   drwxrwxr-x 2 sahil sahil   4096 Jul 30 19:38 sample-output
+   -rwxrwxr-x 1 sahil sahil  14176 Jul 30 19:29 sample-turtle
+   drwxrwxr-x 2 sahil sahil   4096 Jul 30 19:29 trial
+   -rwx------ 1 sahil sahil     14 Jul 30 19:43 xyz.txt
+   
+   Hello>

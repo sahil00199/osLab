@@ -80,7 +80,7 @@ void executor(char * line, char * tokens[])
                 //for (int i = 0 ; i < n ; i ++ ) printf("%s ", tokens[i]); printf ("\n");
                 if (n == 0) return ;
                 execvp(tokens[0], tokens);
-                printf("There was an error in executing this command\n");
+                fprintf(stderr, "There was an error in executing this command\n");
                 
             }
             exit(0);
